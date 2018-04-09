@@ -1,0 +1,3 @@
+/Users/yifanding/CLionProjects/PostScript/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/yifanding/CLionProjects/PostScript/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yifanding/CLionProjects/PostScript/cmake-build-debug/CMakeFiles/PostScript.dir
