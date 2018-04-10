@@ -1,0 +1,42 @@
+0 0 moveto 200 700 lineto  stroke
+255 0 0 setrgbcolor
+
+100 50 moveto
+200 50 lineto
+200 100 lineto
+100 100 lineto
+closepath gsave stroke
+
+200 150 moveto
+400 150 lineto
+400 300 lineto
+200 300 lineto
+closepath gsave fill
+
+grestore gsave 0 0 255 setrgbcolor fill
+100 150 moveto
+200 150 lineto
+150 300 lineto
+closepath gsave stroke
+
+0 0 moveto
+100 0 lineto
+50 100 lineto
+closepath gsave fill
+
+200 400 100 0 360 arc
+closepath gsave stroke
+
+/Times-Roman findfont 12 scalefont setfont newpath 100.00 100.00 moveto (testing！ HW from Yifan Ding and Tande Chen) 0.00 1.00 0.00 setrgbcolor
+show
+
+/vline {300.00 400.00 moveto 300.00 700.00 lineto stroke} def
+gsave
+vline
+4 {50.00 0 translate vline} repeat
+grestore
+/hline {300.00 400.00 moveto 500.00 400.00 lineto stroke} def
+gsave
+hline
+6 {0 50.00 translate hline} repeat
+grestore
